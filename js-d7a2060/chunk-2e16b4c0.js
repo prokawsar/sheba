@@ -1,0 +1,2 @@
+var K_ENV="prod",K_ENV_DEV="dev",K_ENV_TEST="test",K_ENV_PROD="prod";function niceDate(e,t,r){var a=e instanceof Date;if(e&&(a||""!=e.trim())){var n=a?e:new Date(e.replace(/-/g,"/")),i=n.getDate();if(isNaN(i))return"";var o=i,g=n.getMonth()+1;if(o=(o=o<10?"0"+o:o)+"/"+(g=g<10?"0"+g:g)+"/"+n.getFullYear().toString(),t){var u=n.getHours(),D=n.getMinutes();o+=9==u&&0==D&&r?" AM":12==u&&0==D&&r?" PM":" "+(u=u<10?"0"+u:u)+":"+(D=D<10?"0"+D:D)}return o}return""}export{niceDate as a};
+//# sourceMappingURL=chunk-2e16b4c0.js.map
